@@ -1,7 +1,30 @@
 aid: junglee-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/junglee-games.png
 name: Junglee Games
-description: Junglee Games is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Junglee Games is a skill-based online gaming company founded in 2012 by Ankush
+  Gera, operating as an independent subsidiary of Flutter Entertainment, which
+  acquired a majority stake in 2021 in a deal valuing the company at more than
+  $440 million. Headquartered in Gurugram with a studio in Bengaluru, the company
+  builds and operates consumer real-money and casual gaming apps for a base of
+  over 150 million users, with flagship titles including Junglee Rummy, the Howzat
+  fantasy cricket and football platform, Carrom Stars, and Junglee Poker. The
+  company positions trust, safety, and fairness as engineering priorities. Junglee
+  Games is a consumer gaming provider and does not publish a public developer API,
+  SDK, or documented API program; this profile captures its identity, web
+  properties, and probed security posture for the API Evangelist network. It was
+  surfaced as a portfolio company of 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/junglee-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Gaming
+- Online Gaming
+- Real-Money Gaming
+- Fantasy Sports
+- Rummy
+- Poker
+- Skill Games
+- Mobile Games
+- Entertainment
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,22 @@ maintainers:
 common:
 - type: Website
   url: https://jungleegames.com
+- type: About
+  url: https://www.jungleegames.com/aboutus.html
+- type: TermsOfService
+  url: https://www.jungleegames.com/terms-conditions.html
+- type: PrivacyPolicy
+  url: https://www.jungleegames.com/privacy-policy.html
+- type: Support
+  url: https://www.jungleegames.com/reachus.html
+- type: LinkedIn
+  url: https://www.linkedin.com/company/junglee-games/
+- type: DomainSecurity
+  url: security/junglee-games-domain-security.yml
+- type: WellKnown
+  url: well-known/junglee-games-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
